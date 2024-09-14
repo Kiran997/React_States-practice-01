@@ -53,7 +53,13 @@ coverage/
 
 # ESLint cache
 .eslintcache
-
+.eslintignore
+.eslintrc
+.gitattributes
+.npmrc
+.prettierignore
+.prettierrc
+.yaml
 # Webpack cache
 .cache-loader/
 
