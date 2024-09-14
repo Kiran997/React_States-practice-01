@@ -1,0 +1,80 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #150b3e;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash-withdrawal-card {
+  background-color: #c7d2fe;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 400px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-logo {
+  background-color: #7c3aed;
+  color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.profile-name {
+  color: #000;
+  font-size: 24px;
+}
+
+.balance-container {
+  margin: 20px 0;
+}
+
+.balance-label {
+  color: #382f5a;
+  font-size: 18px;
+}
+
+.balance-amount-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.balance-amount {
+  font-size: 30px;
+  color: #000;
+}
+
+.currency-label {
+  color: #585076;
+  margin-left: 10px;
+}
+
+.withdraw-label {
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.choose-amount-label {
+  color: #585076;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.denominations-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
