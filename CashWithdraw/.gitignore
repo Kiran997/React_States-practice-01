@@ -9,6 +9,75 @@
 # production
 /build
 
+# Node modules
+node_modules/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+bower_components/
+
+# Build output
+build/
+dist/
+
+# Production files
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# Mac OS files
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage reports
+coverage/
+
+# Parcel-bundler cache (if used)
+.cache/
+
+# ESLint cache
+.eslintcache
+
+# Webpack cache
+.cache-loader/
+
+# Service Worker and manifest
+*.webmanifest
+service-worker.js
+
+# Optional npm cache directory
+.npm/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# npm package-lock file
+package-lock.json
+yarn.lock
+
+# Sentry files
+.sentryclirc
+
+# Test files (optional)
+*.test.js
+*.spec.js
+
 # misc
 .DS_Store
 .env.local
