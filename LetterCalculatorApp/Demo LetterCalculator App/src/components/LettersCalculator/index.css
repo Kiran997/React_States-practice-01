@@ -1,0 +1,55 @@
+.calculator-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Roboto';
+  background: linear-gradient(
+    to right,
+    #1d976c,
+    #93f9b9
+  ); /* Green to light green gradient */
+  min-height: 100vh; /* Ensures the gradient covers the full viewport height */
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculator-image {
+  width: 400px;
+  height: 50vh;
+  border-radius: 8px; /* Optional: adds rounded corners to the image */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns items to the left */
+  margin-right: 20px; /* Space between the input and the image */
+}
+
+.h1 {
+  padding: 10px;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.text-input {
+  width: 400px;
+  height: 50px;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid #e4e7eb;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.count-display {
+  font-size: 18px;
+  color: #ffffff; /* White text color for better contrast against the gradient */
+}
