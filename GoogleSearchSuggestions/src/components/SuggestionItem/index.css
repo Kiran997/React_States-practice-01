@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.suggestion-text {
+  font-size: 16px;
+  color: #475569;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  width: 16px;
+}
