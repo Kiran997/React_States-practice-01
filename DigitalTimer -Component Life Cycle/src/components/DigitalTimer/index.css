@@ -1,0 +1,136 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #cffcf1;
+}
+
+.timer-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.timer-container {
+  background-color: #defafe;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer-display-container {
+  background-color: #00d9f5;
+  height: 180px;
+  width: 180px;
+  border-radius: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elapsed-time-container {
+  background-color: #00f5d9;
+  height: 160px;
+  width: 160px;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.time {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-reset-container {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.control-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.control-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.set-timer-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.timer-limit-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.limit-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.limit-display {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.limit {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
